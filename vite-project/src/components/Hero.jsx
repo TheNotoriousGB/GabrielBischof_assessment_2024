@@ -28,14 +28,14 @@ const Hero = () => {
       </div>
       
       <div className="flex justify-center p-6 bg-white">
-        <div className="bg-white border-t border-gray-200 rounded-full shadow-lg flex items-center px-4 py-3 w-full max-w-7xl">
+        <div className="bg-white border-t border-gray-300 rounded-full shadow-lg flex items-center px-4 py-3 w-full max-w-7xl">
           <input
             type="text"
             placeholder="Suchen..."
             className="flex-grow px-4 py-2 border-none rounded-l-full focus:outline-none"
           />
           <button
-            className="bg-red-600 text-white px-6 py-3 rounded-full flex items-center"
+            className="bg-red-600 text-white px-6 py-5 rounded-full flex items-center"
             style={{ backgroundColor: "#C22A40" }}
           >
             <FaSearch className="text-xl mr-2" />
