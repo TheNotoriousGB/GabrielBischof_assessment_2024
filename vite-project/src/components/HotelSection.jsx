@@ -36,7 +36,7 @@ const HotelSection = () => {
             />
             <div className="p-4">
               <div className="text-sm text-red-600 mb-2">
-                {hotel.stadt} {hotel.postleitzahl}, {hotel.land}
+                {hotel.stadt} {hotel.postleitzahl} - {hotel.land}
               </div>
               <h3 className="text-xl font-bold mb-2">{hotel.name}</h3>
               <p className="text-gray-700  mt-2">
