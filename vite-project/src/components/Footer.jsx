@@ -97,16 +97,15 @@ const Footer = () => {
             />
           </svg>
         </div>
-        <div className="border-t border-gray-400 w-full p-4 mt-20">
-   
-
-      </div>
-      <div className="flex justify-center gap-4 mt-4">
-      <button className="bg-transparent text-black px-4 py-2 rounded-full hover:bg-red-500 transition-colors duration-300">German</button>
-      <button className="bg-transparent text-black px-4 py-2 rounded-full hover:bg-red-500 transition-colors duration-300">English</button>
-      <button className="bg-transparent text-black px-4 py-2 rounded-full hover:bg-red-500 transition-colors duration-300">French</button>
-    </div>
+        </div>
+        <div className="border-t border-gray-400 w-3/4 p-4 mt-20 mx-8">
+  <div className="flex justify-start gap-4 mt-4">
+    <button className="bg-transparent text-black px-4 py-2 rounded-full hover:bg-red-500 transition-colors duration-300">German</button>
+    <button className="bg-transparent text-black px-4 py-2 rounded-full hover:bg-red-500 transition-colors duration-300">English</button>
+    <button className="bg-transparent text-black px-4 py-2 rounded-full hover:bg-red-500 transition-colors duration-300">French</button>
   </div>
+</div>
+
 </footer>
   );
 };
